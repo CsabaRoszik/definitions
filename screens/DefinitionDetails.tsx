@@ -1,27 +1,20 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import { Paragraph } from 'react-native-paper';
+import { DefinitionDetailsProps } from '../types';
 
-export default function DefinitionDetails({ navigation }) {
-  const [title] = useState('Title');
-  const [description] = useState('Detailed description of the given title');
-
+export function DefinitionDetails({ route: { params: { description } } }: DefinitionDetailsProps) {
   return (
     <View style={styles.container}>
-      <Text style={styles.modalText}>{navigation.getParam('title')}</Text>
-      <Text style={styles.modalText}>{navigation.getParam('description')}</Text>
+      <Paragraph>{description}</Paragraph>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop: '8px',
+    marginBottom: '32px',
+    marginHorizontal: '16px',
   },
-  modalText: {
-    marginBottom: 15,
-    textAlign: "center"
-  }
 });

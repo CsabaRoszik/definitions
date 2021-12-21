@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, FlatList, ListRenderItemInfo } from 'react-native';
-import { SearchBar, ListItem } from 'react-native-elements';
-import { ScrollView } from 'react-native-gesture-handler';
+import { View, FlatList, ListRenderItemInfo, StyleSheet } from 'react-native';
+import { VscChevronRight } from 'react-icons/vsc';
+import { Searchbar, List, Divider } from 'react-native-paper';
 import { definitions } from '../assets/definitions.json';
-import { Definition } from '../types';
+import { Definition, DefinitionListProps } from '../types';
 
 const byTitle = ({ title: titleA }: Definition, { title: titleB }: Definition) => {
   if (titleA === titleB) return 0;
@@ -16,15 +16,17 @@ const renderDefinition = (
   { item, item: { title } }: ListRenderItemInfo<Definition>,
   onSelect: (definition: Definition) => void,
 ) => (
-  <ListItem bottomDivider onPress={() => onSelect(item)}>
-    <ListItem.Content>
-      <ListItem.Title>{title}</ListItem.Title>
-    </ListItem.Content>
-    <ListItem.Chevron />
-  </ListItem>
+  <View>
+    <List.Item
+      title={title}
+      onPress={() => onSelect(item)}
+      right={() => <View style={styles.chevron}><VscChevronRight /></View>}
+    />
+    <Divider />
+  </View>
 );
 
-export default function DefinitionList({ navigation }) {
+export function DefinitionList({ navigation }: DefinitionListProps) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchByTerm = ({ title }: Definition) => {
@@ -33,7 +35,7 @@ export default function DefinitionList({ navigation }) {
     return expression.test(title);
   };
 
-  const displayDetails = (definition: Definition) => {
+  const navigateToDetails = (definition: Definition) => {
     navigation.navigate('DefinitionDetails', definition);
   }
 
@@ -42,29 +44,23 @@ export default function DefinitionList({ navigation }) {
   }
 
   return (
-    <View style={styles.container}>
-      <SearchBar
-        placeholder="Type Here..."
+    <View>
+      <Searchbar
+        placeholder="Search for definition..."
         onChangeText={handleSearchTermChange}
         value={searchTerm}
-        lightTheme
       />
-      <ScrollView>
-        <FlatList
-          keyExtractor={keyExtractor}
-          data={definitions.filter(searchByTerm).sort(byTitle)}
-          renderItem={info => renderDefinition(info, displayDetails)}
-        />
-      </ScrollView>
+      <FlatList
+        keyExtractor={keyExtractor}
+        data={definitions.filter(searchByTerm).sort(byTitle)}
+        renderItem={info => renderDefinition(info, navigateToDetails)}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
+  chevron: {
+    marginVertical: '8px',
+  },
 });
