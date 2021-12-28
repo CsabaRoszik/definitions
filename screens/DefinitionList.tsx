@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { View, FlatList, ListRenderItemInfo, StyleSheet } from 'react-native';
-import { VscChevronRight } from 'react-icons/vsc';
+import { View, FlatList, ListRenderItemInfo } from 'react-native';
 import { Searchbar, List, Divider } from 'react-native-paper';
 import { definitions } from '../assets/definitions.json';
 import { Definition, DefinitionListProps } from '../types';
@@ -20,7 +19,7 @@ const renderDefinition = (
     <List.Item
       title={title}
       onPress={() => onSelect(item)}
-      right={() => <View style={styles.chevron}><VscChevronRight /></View>}
+      right={() => <List.Icon icon="chevron-right" />}
     />
     <Divider />
   </View>
@@ -58,9 +57,3 @@ export function DefinitionList({ navigation }: DefinitionListProps) {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  chevron: {
-    marginVertical: '8px',
-  },
-});

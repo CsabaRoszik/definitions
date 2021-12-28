@@ -13,8 +13,8 @@ export function DefinitionDetails({ route: { params: { description } } }: Defini
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: '8px',
-    marginBottom: '32px',
-    marginHorizontal: '16px',
+    marginTop: 8,
+    marginBottom: 32,
+    marginHorizontal: 16,
   },
 });
