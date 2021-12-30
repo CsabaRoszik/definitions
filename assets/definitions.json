@@ -1,69 +1,427 @@
 {
   "definitions": [
     {
-      "id": 1,
-      "title": "First definition",
-      "description": "Detailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\n"
-    }, {
-      "id": 2,
-      "title": "Second definition",
-      "description": "Detailed description of the second defintition"
-    }, {
-      "id": 3,
-      "title": "Third definition",
-      "description": "Detailed description of the third defintition"
-    }, {
-      "id": 4,
-      "title": "Fourth definition",
-      "description": "Detailed description of the fourth defintition"
-    }, {
-      "id": 5,
-      "title": "Fifth definition Fifth definition Fifth definition",
-      "description": "Detailed description of the fifth defintition"
-    }, {
-      "id": 6,
-      "title": "Sixth definition",
-      "description": "Detailed description of the sixth defintition"
-    }, {
-      "id": 7,
-      "title": "Seventh definition",
-      "description": "Detailed description of the seventh defintition"
-    }, {
-      "id": 8,
-      "title": "Eighth definition",
-      "description": "Detailed description of the eighth defintition"
-    }, {
-      "id": 9,
-      "title": "First definition",
-      "description": "Detailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\nDetailed description of the first defintition\n"
-    }, {
-      "id": 10,
-      "title": "Second definition",
-      "description": "Detailed description of the second defintition"
-    }, {
-      "id": 11,
-      "title": "Third definition",
-      "description": "Detailed description of the third defintition"
-    }, {
-      "id": 12,
-      "title": "Fourth definition",
-      "description": "Detailed description of the fourth defintition"
-    }, {
-      "id": 13,
-      "title": "Fifth definition",
-      "description": "Detailed description of the fifth defintition"
-    }, {
-      "id": 14,
-      "title": "Sixth definition",
-      "description": "Detailed description of the sixth defintition"
-    }, {
-      "id": 15,
-      "title": "Seventh definition",
-      "description": "Detailed description of the seventh defintition"
-    }, {
-      "id": 16,
-      "title": "Eighth definition",
-      "description": "Detailed description of the eighth defintition"
+      "id": "1",
+      "title": "nem kötő elektronpár",
+      "description": "Olyan elektronpárok kovalens kötésben, amik csak az egyik atom körül keringenek."
+    },
+    {
+      "id": "2",
+      "title": "kovalens kötés",
+      "description": "Olyan elsőrendű kémiai kötés, amelyben az atomok vegyérték elektronjaikkal kapcsolódnak össze."
+    },
+    {
+      "id": "3",
+      "title": "dipólus molekula",
+      "description": "Olyan molekula, amiben az alkotó atomok közül az egyik jobban vonzza a kötő elektronpárokat mint a másik így pólusok alakulnak ki."
+    },
+    {
+      "id": "4",
+      "title": "hőmérséklet",
+      "description": "Az anyagok belső energiáját jelző fizikai mennyiség"
+    },
+    {
+      "id": "5",
+      "title": "nyomás",
+      "description": "A nyomóerő és a nyomott felület hányadosa.\njele: P"
+    },
+    {
+      "id": "7",
+      "title": "Snowball Earth",
+      "description": "Az elmélet szerint több mint 650 millió évvel ezelőtt a Föld felszínét teljesen vagy nagyon nagy mértéken jég borította."
+    },
+    {
+      "id": "8",
+      "title": "oldószer",
+      "description": "Olyan anyag, amely egy kémiailag eltérő anyagot (oldott anyag), oldat keletkezése közben felold."
+    },
+    {
+      "id": "9",
+      "title": "reakcióközeg",
+      "description": "A reakciók anyagait feloldja."
+    },
+    {
+      "id": "10",
+      "title": "reakció termék",
+      "description": "A kémiai reakciók eredményeként keletkezett anyagok."
+    },
+    {
+      "id": "11",
+      "title": "reakció partner",
+      "description": "A kémiai reakciókban résztvevő anyagok."
+    },
+    {
+      "id": "12",
+      "title": "hőmérsékleti puffer",
+      "description": "Olyan anyag, ami tompítja a hő hőmérséklet emelő hatását."
+    },
+    {
+      "id": "13",
+      "title": "makromolekula",
+      "description": "Több kémiai kötéssel kapcsolódó atomból álló egység."
+    },
+    {
+      "id": "14",
+      "title": "monomer",
+      "description": "A dimert felépítő kémiai részecskék."
+    },
+    {
+      "id": "15",
+      "title": "dimer",
+      "description": "Egy olyan részecske, amely két monomerből áll, amelyeket erős vagy gyenge, kovalens kötés köt össze."
+    },
+    {
+      "id": "16",
+      "title": "kondenzáció",
+      "description": "Olyan kémiai reakció, melynek során a két vagy több reagáló molekula egyetlen fő termékké alakul, miközben víz vagy más kis molekula keletkezik."
+    },
+    {
+      "id": "17",
+      "title": "hidrolízis",
+      "description": "A kovalens kötések víz jelenlétében megszakadhatnak, ilyenkor egy dimer részecskéből két monomer részecske keletkezik."
+    },
+    {
+      "id": "18",
+      "title": "fajhő",
+      "description": "Megmutatja, hogy hány KJ hőmennyiség szükséges ahhoz, hogy az adott anyag 1kg tömegű részének hőmérsékletét 1 °C-kal növeljük."
+    },
+    {
+      "id": "19",
+      "title": "sűrűség",
+      "description": "az adott térfogategység tömegének mértéke.\njele: ρ"
+    },
+    {
+      "id": "21",
+      "title": "oldat",
+      "description": "Olyan keverék, amelyben a legnagyobb arányban jelen levő komponens folyadék halmazállapotú."
+    },
+    {
+      "id": "22",
+      "title": "oldott anyag",
+      "description": "Az oldatban kisebb arányban jelen levő anyag."
+    },
+    {
+      "id": "23",
+      "title": "valódi oldat",
+      "description": "Olyan vizes oldat, amiben az oldott anyag részecskéi 1nm-nél kisebbek. A fény akadálytalanul áthalad az oldaton."
+    },
+    {
+      "id": "24",
+      "title": "kolloid rendszer",
+      "description": "Olyan vizes oldat, amiben az oldott anyag részecskéi 1 nm-nél nagyobbak és 500 nm-nél kisebbek. A fény megtörik az oldatban."
+    },
+    {
+      "id": "25",
+      "title": "durva diszperz rendszer",
+      "description": "Olyan vizes oldat, amiben az oldott anyag részecskéi 500-1000 nm-nél kisebbek. A fény nem halad át az oldaton."
+    },
+    {
+      "id": "26",
+      "title": "emulzió",
+      "description": "Olyan durva diszperz rendszer, amelyben a diszpergált anyag egy vízben nem oldható folyadék."
+    },
+    {
+      "id": "27",
+      "title": "szuszpenzió",
+      "description": "Olyan durva diszperz rendszer, amelyben a diszpergált anyag egy vízben nem oldható szilárd anyag."
+    },
+    {
+      "id": "28",
+      "title": "kémiailag tiszta anyag",
+      "description": "Egy anyag akkor kémiailag tiszta, ha az csak egyféle anyagból áll. Ilyenek az elemek és a vegyületek."
+    },
+    {
+      "id": "29",
+      "title": "komponens",
+      "description": "A komponensek egy rendszert alkotó, kémiailag egységes részecskék"
+    },
+    {
+      "id": "30",
+      "title": "keverék",
+      "description": "Több kémiailag tiszta anyagból álló anyagi halmaz."
+    },
+    {
+      "id": "31",
+      "title": "diszpergált anyag",
+      "description": "A folyadékokban eloszlatott anyag."
+    },
+    {
+      "id": "32",
+      "title": "(Farday)Tyndall-jelenség",
+      "description": "Kolloidokban lejátszódó fényszóródási jelenség. Nevét felfedezőjéről, John Tyndall-ról kapta. A jelenség során a kolloidba érkező fényt a kolloidban lévő részecskék szórják."
+    },
+    {
+      "id": "33",
+      "title": "Makromolekuláris kolloid rendszer",
+      "description": "Olyan kolloid rendszer, amelyben a diszpergált anyag részecskéi egymagukban is elérik a kolloid mérethatárt (1nm)."
+    },
+    {
+      "id": "34",
+      "title": "Asszociális kolloid",
+      "description": "Olyan kolloid rendszer, amelyben a diszpergált anyag részecskéi egymagukban nem érik el a kolloid mérethatárt ezért micellákká állnak össze."
+    },
+    {
+      "id": "35",
+      "title": "micella",
+      "description": "Felületaktív anyagokat tartalmazó rendszerek. Hidrofil és lipofil (zsírkedvelő) részekből állnak. Az asszociációs kolloid rendszerekben a részecskék micellákká alakulnak."
+    },
+    {
+      "id": "36",
+      "title": "hidrátburok",
+      "description": "Amikor ionos vegyületeket oldunk vízben, az ionok kiszakadnak az ionrácsból és a vízmolekulák az ionok köré rendeződnek, ez a hidrát burok."
+    },
+    {
+      "id": "37",
+      "title": "szabad víz",
+      "description": "A sejtfalakhoz nem kötődő, szabadon áramló víz a sejtek közt."
+    },
+    {
+      "id": "38",
+      "title": "adszorpció",
+      "description": "Felületi megkötődés. Az a folyamat, ami során az anyagok/sejtek megkötődnek az adszorbens anyag felületén."
+    },
+    {
+      "id": "39",
+      "title": "fajlagos felület",
+      "description": "Az anyag felületének és a tömegének a hányadosa."
+    },
+    {
+      "id": "40",
+      "title": "adszorbens",
+      "description": "Az az anyag, amelynek felszínén az anyagok/sejtek képesek megkötődni."
+    },
+    {
+      "id": "41",
+      "title": "adszorbeált anyag",
+      "description": "Az a kémiai részecske/sejt, amely az adszorbens felszínén megkötődik."
+    },
+    {
+      "id": "42",
+      "title": "adszorpciós hő",
+      "description": "Az adszorpció során felszabaduló hő."
+    },
+    {
+      "id": "43",
+      "title": "ionadszorpció",
+      "description": "Az adszorbensek töltéssel bíró aktív helyei a felület töltésével ellentétes töltésű ionokat kötnek meg."
+    },
+    {
+      "id": "44",
+      "title": "Lioszól állapot",
+      "description": "A kolloid rendszerek olyan állapota, amikor a kolloid részecskék körül levő hidrátburkok nem érnek, össze a kolloid részecskék szabadon mozognak, a részecskék között van szabad víz."
+    },
+    {
+      "id": "45",
+      "title": "Liogél állapot",
+      "description": "A kolloid rendszerek olyan állapota, amikor a kolloid részecskék körül levő hidrátburkok összeérnek, nincs szabad víz a részecskék között, a részecskék nem mozognak szabadon."
+    },
+    {
+      "id": "46",
+      "title": "Xerogél állapot",
+      "description": "A kolloid rendszerek olyan állapota, amikor a kolloid részecskék körül levő hidrát burkok összeérnek, vékonyak, nincs a részecskék közt szabad víz, nem mozognak szabadon."
+    },
+    {
+      "id": "47",
+      "title": "Boltzmann- állandó",
+      "description": "Az a fizikai állandó, amely a test hőmérséklete és az azt felépítő részecskék mozgási energiája közötti kapcsolatban szerepel. Megmutatja hogy1 foknyi hőmérséklet-emelkedés esetén adott anyag molekulája szabadságfokonként átlagosan hány k energiát vesz fel.\nkB = 1,380649·10-23 J/K"
+    },
+    {
+      "id": "49",
+      "title": "homogén rendszerek",
+      "description": "A részecskék molekuláris, illetve atomi méretekben keverednek egymással, nincs a rendszerekben fázishatár."
+    },
+    {
+      "id": "50",
+      "title": "heterogén rendszerek",
+      "description": "Olyan anyagi rendszer, amelyben egy vagy több fázishatár van."
+    },
+    {
+      "id": "51",
+      "title": "mikroheterogén rendszerek",
+      "description": "A felület-térfogat aránya, illetve a felületi energia alapján csoportosított anyagi rendszer."
+    },
+    {
+      "id": "52",
+      "title": "fázis",
+      "description": "Az anyagi rendszerek azonos fizikai, kémiai tulajdonsággal rendelkező egységei."
+    },
+    {
+      "id": "53",
+      "title": "fázishatár",
+      "description": "Az a határfelület, mely a fázisokat választja el."
+    },
+    {
+      "id": "54",
+      "title": "diffúzió",
+      "description": "Koncentráció különbség hatására bekövetkező anyagvándorlás. Az anyagok a magasabb oldott anyag koncentrációjú hely felől, az alacsonyabb oldott anyag koncentrációjú hely felé áramlanak. A diffúzió a koncentrációk kiegyenlítődéséig tart."
+    },
+    {
+      "id": "55",
+      "title": "koncentráció",
+      "description": "Megmutatja, hogy az elegyek, keverékek vagy oldatok egyik komponensének hány mólja található egy dm3 oldatban. "
+    },
+    {
+      "id": "56",
+      "title": "viszkozitás",
+      "description": "Egy folyadék vagy gáz belső súrlódásának mértéke."
+    },
+    {
+      "id": "57",
+      "title": "dinamikus egyensúlyi állapot",
+      "description": "A diffúzió vége. A bruttó anyagáramlás befejeződött, de a részecskék továbbra is mozognak."
+    },
+    {
+      "id": "58",
+      "title": "ozmózis",
+      "description": "Féligáteresztő hártyán keresztül végbemenő víz diffúzió. A víz az alacsonyabb oldott anyag koncentrációjú hely felől a magasabb oldott anyag koncentrációjú hely felé áramlik. Az ozmózis az ozmózisnyomás és a turgornyomás kiegyenlítődéséig tart."
+    },
+    {
+      "id": "59",
+      "title": "szemipermeábilis membrán",
+      "description": "Olyan hártya, amely bizonyos anyagokat átereszt másokat nem."
+    },
+    {
+      "id": "60",
+      "title": "turgornyomás",
+      "description": "A sejtfalra kifejtett nyomás."
+    },
+    {
+      "id": "61",
+      "title": "ozmózisnyomás",
+      "description": "Az a nyomás, ami a féligáteresztő hártyán átáramló anyag (oldószer) áramlását (az ozmózist) megakadályozza."
+    },
+    { "id": "62", "title": "szelektivitás", "description": "szűrőképesség" },
+    { "id": "63", "title": "glükóz", "description": "szőlőcukor" },
+    { "id": "64", "title": "szacharóz", "description": "kristálycukor" },
+    {
+      "id": "65",
+      "title": "foszfolipid",
+      "description": "Olyan zsírszerű anyag, amely a sejtmembránt alkotja."
+    },
+    {
+      "id": "66",
+      "title": "ioncsatorna",
+      "description": "A sejtmembrán oldalait összekötő csatorna."
+    },
+    {
+      "id": "67",
+      "title": "extracelluláris folyadék",
+      "description": "A sejten kívül elhelyezkedő folyadék."
+    },
+    {
+      "id": "68",
+      "title": "hidrofil részecske",
+      "description": "Olyan részecskék, amelyek elegyednek vízzel."
+    },
+    {
+      "id": "69",
+      "title": "hidrofób részecske",
+      "description": "Olyan részecskék, amelyek nem elegyednek vízzel."
+    },
+    {
+      "id": "70",
+      "title": "apoláros molekula",
+      "description": "Olyan molekula, amely azonos atomokból épül fel."
+    },
+    {
+      "id": "71",
+      "title": "toxin",
+      "description": "Biológiai folyamat során létrejövő méreg."
+    },
+    {
+      "id": "72",
+      "title": "ion",
+      "description": "Elektromos töltéssel rendelkező atom/molekula."
+    },
+    {
+      "id": "73",
+      "title": "szteroid hormon",
+      "description": "Olyan, lipidek családjába tartozó szerves molekulák, amiket a sejtek állítanak elő."
+    },
+    {
+      "id": "74",
+      "title": "peptid hormon",
+      "description": "Meghatározott sorrendben összekapcsolódó, aminosavakból felépülő rövid polimerek."
+    },
+    {
+      "id": "75",
+      "title": "hipotóniás oldat",
+      "description": "Olyan oldat, amelynek az oldott anyag koncentrációja alacsonyabb, mint a benne lévő sejteké."
+    },
+    {
+      "id": "76",
+      "title": "izotóniás oldat",
+      "description": "Olyan oldat, amelynek az oldott anyag koncentrációja megegyezik, a benne lévő sejtekével."
+    },
+    {
+      "id": "77",
+      "title": "hipertóniás oldat",
+      "description": "Olyan oldat, amelynek az oldott anyag koncentrációja magasabb, mint a benne lévő sejteké."
+    },
+    {
+      "id": "78",
+      "title": "hemolízis",
+      "description": "Olyan jelenség, melynél a vörösvérsejtek sejtmembránja megbomlik és a sejt anyaga a környező folyadékba kerül."
+    },
+    {
+      "id": "79",
+      "title": "hemoglobin",
+      "description": "A vörösvérsejtekben lévő fehérjemolekula, amely az oxigén megkötéséért és szállításáért felelős."
+    },
+    {
+      "id": "80",
+      "title": "endocitózis",
+      "description": "Az a folyamat, melynek során egy sejt a körülötte lévő makromolekulákat, oldott anyagokat, szilárd részecskéket bekebelezi."
+    },
+    {
+      "id": "81",
+      "title": "exocitózis",
+      "description": "Az a folyamat, melynek során az emészthetetlen anyagok kikerülnek a sejtekből."
+    },
+    {
+      "id": "82",
+      "title": "sejtmembrán",
+      "description": "A sejteket körülvevő hártya."
+    },
+    {
+      "id": "83",
+      "title": "Malária",
+      "description": "Trópusokon terjedő, magas lázzal járó betegség, melynek kórokozója a lázállatka. Vektorállata a maláriaszúnyog."
+    },
+    {
+      "id": "84",
+      "title": "Álomkór",
+      "description": "Afrikai elterjedésű betegség. Kórokozója az álomkórostoros. Vektorállata a cecelégy."
+    },
+    {
+      "id": "85",
+      "title": "Leihsmaniasis",
+      "description": "Latin-amerikai elterjedésű betegség. Kórokozója a Leishmania ostoros. Vektorállata egy poloskafaj."
+    },
+    {
+      "id": "86",
+      "title": "fiziológiai sóoldat",
+      "description": "Olyan sóoldat, ami ~0,87% NaCl-ot és egyéb sókat tartalmaz. Az infúziók alapoldata."
+    },
+    {
+      "id": "87",
+      "title": "Ringer-oldat",
+      "description": "olyan izotóniás sóoldat keverék, melyben az élő szervezetből eltávolított szövetek viszonylag hosszú ideig életben tarthatók, miközben élettani működésük vizsgálható."
+    },
+    {
+      "id": "88",
+      "title": "lüktetési frekvencia",
+      "description": "Lüktetések száma, egységnyi idő alatt."
+    },
+    {
+      "id": "89",
+      "title": "plazmolízis",
+      "description": "Olyan folyamat, amely csak a sejtfallal rendelkező sejtekkel történhet meg. A külső tér oldott anyag koncentrációja magasabb, mint a sejt citoplazmájának oldott anyag koncentrációja. Ozmózis történik.  A víz kiáramlik a sejtből, a citoplazma összezsugorodik. A sejtmembrán elválik a sejtfaltól."
+    },
+    {
+      "id": "90",
+      "title": "deplazmolízis",
+      "description": "Fordított plazmolízis. A külső térnek alacsonyabb az oldott anyag koncentrációja, mint a citoplazma oldott anyag koncentrációja. A víz beáramlik a sejtbe. A citoplazma térfogata nő. Megduzzad a sejt, de nem durran ki a sejtfalra gyakorolt nyomás miatt."
     }
   ]
 }
